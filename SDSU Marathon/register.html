@@ -1,0 +1,158 @@
+<html>
+<!-- Vini Kalra
+Class Account- jadrn022-->
+    
+<head>
+<title>SDSU Marathon</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+     <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="/jquery/jquery.js"></script>  
+    <script type="text/javascript" src="js/main.js"></script>
+    </head>
+<body>
+   
+    <a href="index.html" class="reg-button"> <<< Back To Home</a>
+
+   <div class="head">MARATHON REGISTRATION FORM</div>
+    
+    
+    <div class ="form-container">
+         
+        <form name="myform" enctype="multipart/form-data" action="process_request.php" method="post" id="myform" >
+ <table >
+<tr>
+    <td>
+    Profile Picture<span class="mandatory-field"> *</span>
+    </td>
+     <td>
+     <img id="img" src="placeholder.jpg" height="50px" width="50px" alt="runner_image">
+     </td>
+     <td>
+       <input type='file' id="runner_image" name="file" value="Upload Picture" accept="image/*"  onchange="readImage(this);" /> 
+     </td>
+    
+</tr>
+<tr>
+<td>First Name<span class="mandatory-field"> *</span></td>
+<td><input type="text" name="fname" id="fname" ></td>
+
+<td>Middle Name </td>
+<td><input type="text" name="mname" id="mname" ></td>
+  
+<td>Last Name<span class="mandatory-field"> *</span> </td>
+<td><input type="text" name="lname" id="lname" ></td>
+  
+
+</tr> 
+   
+    <tr>
+  <td>
+Address <span class="mandatory-field"> *</span>
+</td>
+<td>
+<textarea name="address" rows="3" cols="16" id="address" >
+</textarea>
+</td>  
+<td>
+    City<span class="mandatory-field"> *</span>
+        </td>
+   <td><input type="text" name="city" id="city" ></td>
+  <td>
+       State<span class="mandatory-field"> *</span>
+        </td>
+        <td><input type="text" name="state" id="state" ></td>
+     
+     </tr>
+     <tr>
+     <td>
+       Zipcode<span class="mandatory-field"> *</span>
+        </td>
+        <td><input type="text" name="zip" id="zip" ></td>
+     </tr>
+     
+      <tr>
+     <td>
+       Contact #<span class="mandatory-field"> *</span>
+        </td>
+        <td><input type="text" name="phn" id="phn" placeholder="###-###-####"></td>
+          
+      <td>
+       Email<span class="mandatory-field"> *</span>
+        </td>
+        <td><input type="email" name="emailId" id="emailId" placeholder="abc@xyz.com" ></td>
+       
+          
+     </tr>
+     <tr>
+     <td>
+       Date Of Birth<span class="mandatory-field"> *</span>
+        </td>
+        <td><input type="text" name="dob" id="dob" placeholder="mm/dd/yyyy"></td>
+         <td>
+         Gender<span class="mandatory-field"> *</span>
+         </td> 
+     <td>
+         <input type="radio" name="gender" id="male" value="Male" checked="checked">
+         <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female">
+         <label for="female">Female</label>
+         
+         </td>
+     </tr>
+     <tr>
+     <td> Category<span class="mandatory-field"> *</span>
+ 
+         </td>
+         <td>
+         <select id="category" name="category">
+    <option value="">---</option>
+  <option value="Teen">Teen</option>
+  <option value="Adult">Adult</option>
+  <option value="Senior">Senior</option>
+
+</select>
+             </td>
+         
+         
+<td> Experience Level<span class="mandatory-field"> *</span>
+         </td>
+         <td>
+         <select id="elevel" name="elevel">
+<option value="">---</option>
+  <option value="Expert">Expert</option>
+  <option value="Experienced">Experienced</option>
+  <option value="Novice">Novice</option>
+
+</select>
+             </td>
+         
+     </tr>
+     <tr>
+     <td>
+     Medical Conditions
+</td>
+<td>
+<textarea name="mCondition" rows="4" cols="16" id="mCondition" >
+</textarea>
+</td> 
+     </tr>
+     <tr>
+         <td></td>
+         <td>
+     <input type="submit" value="Submit" id="submit_button" class="reg-button">
+             </td>
+         <td></td>
+     </tr>
+     <tr>
+     
+     <div id="message_line"></div>
+     </tr>
+</table>
+   </form>  
+          
+    </div>
+   
+  
+</body>
+
+</html>

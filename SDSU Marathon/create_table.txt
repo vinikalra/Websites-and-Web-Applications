@@ -1,0 +1,21 @@
+use jadrn022;
+
+
+create table runners(
+email 		varchar(50) NOT NULL PRIMARY KEY,
+Image		varchar(80)  NOT NULL,
+fname                     varchar(20)  NOT NULL,
+mname                     varchar(20),
+lname                     varchar(20)  NOT NULL,
+address		varchar(100)  NOT NULL,
+city		varchar(20)  NOT NULL,
+state		varchar(20)  NOT NULL,
+zipcode		varchar(10)  NOT NULL,
+contact		INTEGER(15) NOT NULL,
+dob		varchar(10)  NOT NULL,
+gender		varchar(10)  NOT NULL,
+category		varchar(10)  NOT NULL,
+elevel		varchar(10)  NOT NULL,
+mcondition	varchar(100)
+);
+

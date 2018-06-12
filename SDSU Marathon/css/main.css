@@ -1,0 +1,177 @@
+/*
+ Vini Kalra
+Class Account- jadrn022
+
+*/
+.news
+{
+    background-color: red;
+}
+
+.top-section {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color:#ea3838;
+    text-align: center;
+}
+
+.list-section {
+    float:inherit;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:fantasy;
+        
+}
+
+
+
+
+.active {
+    background-color: #ea3838;
+}
+
+body
+{
+    background-image: url(../bg-img.jpg);
+    background-size: cover;
+ 
+   
+}
+
+.main-container
+{
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+    font-family: fantasy;
+}
+
+.head{
+    font-family: 'Roboto', sans-serif;
+    padding:0.5em 0;
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+    font-weight: 500;  
+}
+.form-container
+{
+    background:rgba(0, 0, 0, 0.83);
+    min-width: 700px;
+    max-width: 930px;
+    margin-left: 10%;
+   font-family: 'Anton', sans-serif;
+    align-self: center;
+}
+
+table
+{
+    color: white;
+    padding: 20px 10px 20px 20px;
+    margin-right: 0px;
+    
+}
+td
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    max-width: 170px;
+   
+}
+.mandatory-field
+{
+    color: red;
+}
+
+
+.details-container
+{
+    padding: 20px;
+    margin-top: 70px;
+    color: white;
+    font-size: 20px;
+    background:rgba(0, 0, 0, 0.6);
+    min-width: 700px;
+    max-width: 800px;
+    margin-left: 10%;
+   font-family: 'Anton', sans-serif;
+    align-self: center;
+    
+}
+
+.reg-button
+{
+    
+    color: black; 
+    background-color: red;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-style: none;
+    padding: 5px 6px 5px 6px;
+    font-weight: 700;
+    border-radius: 3px;
+    
+}
+.reg-link
+{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 20%;
+    font-size: 60px;
+    color: white;
+    font-weight: 400;
+    font-family: fantasy;
+     background-color: #ea3838;
+    display: inline;
+}
+.dated-field
+{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.km-link
+{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 5%;
+    font-size: 60px;
+    color: white;
+    font-weight: 400;
+    font-family: fantasy;
+     background-color: #ea3838;
+    display: inline;
+}
+
+
+a
+{
+   
+    color: white;
+    text-decoration: none;
+}
+#message_line {
+    height: 50px;
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    } 
+
+#conf_line {
+    font-size: 100px;
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    
+    } 

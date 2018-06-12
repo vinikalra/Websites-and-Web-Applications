@@ -1,0 +1,235 @@
+.mainpage
+{
+    background-image: url(images/AtC15o.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 500px;
+    
+}
+.content-container
+{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-width: 800px;
+  float: inherit;
+    font-family: "Comic Sans MS";
+    
+}
+
+
+
+.must-see-content
+{
+    padding: 50px;
+   padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify; 
+}
+
+.history
+{
+    background-image: url(images/history.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+      
+}
+.arts
+{
+    background-image: url(images/art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Comic Sans MS";
+}
+.art-heading
+{
+margin-left: 300px;
+    padding-top: 20px;
+  
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+    padding-top: 20px;
+    min-width: 400px;
+    color:black;
+}
+.art-content
+{
+     font-family: monospace;
+	margin-left: 50px;
+    padding-left: 80px;
+    padding-right: 100px;
+    text-align: justify;
+    color: black;
+    width:60%;
+    background-color: rgba(255,255,255,0.6);
+padding-top: 20px;
+padding-bottom:20px;
+}
+.art-layout
+{
+    width: 100%;
+    font-size: 15px
+}
+.img-layout
+{
+    float: right;
+    margin: 0 0 10px 15px;
+}
+.neighbor
+{
+    float:left;
+}
+.heading
+{
+    font-family: "Comic Sans MS";
+    font-size: 80px;
+    margin-top: 40px;
+    margin-left: 300px;
+    min-width: 800px;
+}
+
+#neighborHead
+{
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+    margin-left: 300px;
+    padding-top: 20px;
+    min-width: 800px;
+	color:black;
+}
+#mustHead
+{
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+    margin-left: 300px;
+    padding-top: 20px;
+    min-width: 800px;
+	color:white;
+}
+
+.nav-main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav-li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+td
+{
+    padding:0 20px 0 20px;
+}
+.bgset
+{
+    background-image: url("images/neigh-bg.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.details
+{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.content
+{
+    margin-top: 40px; 
+    min-width: 1100px;
+   
+    
+}
+.food-bg
+{
+background-image: url("images/rest-bg.jpg");
+background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.must-bg
+{
+background-image: url("images/must-bg.jpg");
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-family: "Comic Sans MS";
+    padding: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+    width: 210px;
+    float: left;
+    background-color:white; 
+    margin-right: 20px;
+    margin-bottom:30px;
+}
+
+.card-neigh {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-family: "Comic Sans MS";
+    padding: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+    width: 500px;
+    float: left;
+background-color:white;
+margin-right: 20px;
+margin-bottom:30px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover, .card-neigh:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding-top: 20px;
+    padding-left: 50px;
+    min-width: 1200px;
+}
+h1,h2
+{
+    text-align: 
+        center;
+    
+}
+h2
+{
+    text-decoration: underline;
+}
+.nav{
+    display: inline;
+}
+table, th, td {
+    border: 1px solid black;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}

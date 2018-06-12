@@ -1,0 +1,73 @@
+<html>
+<title>
+    Bertha's Deluxe Chocolates!
+</title>
+<head>
+    
+<link rel="stylesheet" href="jquery-ui.css">
+<link rel="stylesheet" href="proj3.css">
+<script src="/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="proj.js"></script>
+<script src="shopping_cart.js"></script>
+</head>
+<body>
+<div class="navbar">
+   
+<a href="http://jadran.sdsu.edu/~jadrn022/proj4/index.html"><img src="BerthasLogo.png" width="100px" height="80px"></a>
+    <ul class="nav-main">
+ <li class="nav-li"><a href="product.html">Products</a>  </li>
+<li class="nav-li"><a id="showCart" href="#">Order Online</a></li>
+<li class="nav-li"><a href="about.html">About Us</a></li>
+<li class="nav-li"><a href="contact.html">Contact</a></li>
+    </ul>
+  
+     <input class="searchbox" type="text" placeholder="Search Products" id="searchValue">
+<button value="search" onclick="searchProduct();">Go</button>
+        
+<div class="cart" id="myCart">
+<a href="#" onclick='displayCart();'>
+<img src="cart.png" width=40 height=40> 
+</a>
+</div>
+</div>
+    <div id="prod-content">
+<table class="shipping">
+<th><h1 align="center">Order Confirmed! Order Summary</h1>
+    <tr>    <td>Items Purchased</td>    <td><input type="text" name="oItems" id="oItems" readonly></td>    </tr>
+    
+     <tr>
+    <td>SubTotal</td>
+    <td><input type="text" name="oSubTotal" id="oSubTotal" readonly></td>
+    </tr>
+    
+     <tr>
+         <td>Shipping</td>
+         <td><input type="text" name="oShipping" id="oShipping" readonly></td>
+    </tr>
+    
+     <tr>
+    <td>Tax</td>
+         <td><input type="text" name="oTax" id="oTax" readonly></td>
+    </tr>
+    
+     <tr>
+    <td>Total</td>
+         <td><input type="text" name="oTotal" id="oTotal" readonly></td>
+    </tr>
+    
+     <tr>
+         <td>Ship To</td>
+    <td><input type="text" name="oShipAddr" id="oShipAddr" readonly></td>
+    </tr>
+    
+     <tr>
+    <td>Payment Method</td>
+         <td><input type="text" name="oCard" id="oCard" readonly></td>
+    </tr>
+   
+    
+        </table>
+  </div>  
+</body>
+</html>

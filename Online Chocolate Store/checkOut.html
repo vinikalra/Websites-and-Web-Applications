@@ -1,0 +1,109 @@
+<html>
+<title>
+    Bertha's Deluxe Chocolates!
+</title>
+<head>
+    
+<link rel="stylesheet" href="jquery-ui.css">
+<link rel="stylesheet" href="proj3.css">
+<script src="/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="proj.js"></script>
+<script src="shopping_cart.js"></script>
+</head>
+<body>
+<div class="navbar">
+   
+<a href="http://jadran.sdsu.edu/~jadrn022/proj4/index.html"><img src="BerthasLogo.png" width="100px" height="80px"></a>
+    <ul class="nav-main">
+ <li class="nav-li"><a href="product.html">Products</a>  </li>
+<li class="nav-li"><a id="showCart" href="#">Order Online</a></li>
+<li class="nav-li"><a href="about.html">About Us</a></li>
+<li class="nav-li"><a href="contact.html">Contact</a></li>
+    </ul>
+  
+     <input class="searchbox" type="text" placeholder="Search Products" id="searchValue">
+<button value="search" onclick="searchProduct();">Go</button>
+        
+<div class="cart" id="myCart">
+<a href="#" onclick='displayCart();'>
+<img src="cart.png" width=40 height=40> 
+</a>
+</div>
+</div>
+    <div id="prod-content">
+
+<form action="" method="post" id="billingForm">
+    <table class="shipping">
+<th><h1 align="center">Shipping Information</h1></th>
+        <tr>
+             <td>   Name: </td>
+       <td>  <input type="text" name="Name" id="name" required> </td>
+               </tr>
+         <tr>
+             <td>    Address Line 1: </td>
+                 <td> <input type="text" name="address1" id="address1" required></td>
+             </tr> <tr>
+               <td>  Address Line 2: </td>
+                   <td> <input type="text" name="address2" id="address2" required></td>
+                  </tr> <tr>
+              <td>   City: </td>
+                  <td> <input type="text" name="city" id="city" required></td>
+                      </tr>  <tr>
+                <td> State: </td>
+                    <td> <input type="text" name="state" id="state" required></td>
+                        </tr>     <tr>
+               <td>  Zip Code: </td>
+                   <td> <input type="number" name="zipcode" id="zipcode" required> </td>
+     </tr><tr>
+         <td> Contact Phone #: </td>
+             <td> <input type="number" name="phone" id="phone" required></td></tr>
+  </table>
+     <table class="billing">
+  <th>  <h1 align="center">Billing Information</h1> </th>
+         <tr> <td><input type="checkbox" id="billship" name="billship" value="billship" onclick="populateBilling(this.checked);">
+    <label for="billship">Same as Shipping Adress</label></td> </tr>
+            <tr>
+             <td>   Name: </td>
+       <td>  <input type="text" id="bName" required> </td>
+               </tr>
+         <tr>
+             <td>    Address Line 1: </td>
+                 <td> <input type="text" id="baddress1" required></td>
+             </tr> <tr>
+               <td>  Address Line 2: </td>
+                   <td> <input type="text" id="baddress2" required></td>
+                  </tr> <tr>
+              <td>   City: </td>
+                  <td> <input type="text" id="bcity" required></td>
+                      </tr>  <tr>
+                <td> State: </td>
+                    <td> <input type="text" id="bstate" required></td>
+                        </tr>     <tr>
+               <td>  Zip Code: </td>
+                   <td> <input type="number" id="bzipcode" required> </td>
+     </tr><tr>
+         <td> Contact Phone #: </td>
+             <td> <input type="number" id="bphone" required></td></tr>
+<tr>
+ <td>   Credit Card Type:</td>
+  <td>       <select>
+  <option value="visa">Visa</option>
+  <option value="master">Master</option>
+    </select></td></tr>
+      <tr>    <td>      Credit Card: </td>
+              <td><input type="number" name="creditcardnum" id="cardnum" required></td></tr><tr>
+            <td>Expiration Date: </td>
+         <td><input type="text" name="expiration" required></td>
+    </tr><tr>
+              <td>  CVV: </td>
+                  <td><input type="number" name="cvv" required></td>
+    </tr><tr>
+                <td>
+                    <input type="button" class="button" value="Continue" onclick='orderConfirmed();'></td> </tr>
+                      </table>
+            </form> 
+    
+  </div>  
+</body>
+</html>

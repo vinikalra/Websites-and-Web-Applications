@@ -1,0 +1,92 @@
+<html>
+<title>
+    Bertha's Deluxe Chocolates!
+</title>
+<head>
+    
+<link rel="stylesheet" href="jquery-ui.css">
+<link rel="stylesheet" href="proj3.css">
+<script src="/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="proj.js"></script>
+<script src="shopping_cart.js"></script>
+</head>
+<body>
+<div class="navbar">
+   
+<a href="http://jadran.sdsu.edu/~jadrn022/proj4/index.html"><img src="BerthasLogo.png" width="100px" height="80px"></a>
+    <ul class="nav-main">
+ <li class="nav-li"><a href="product.html">Products</a>  </li>
+<li class="nav-li"><a id="showCart" href="#">Order Online</a></li>
+<li class="nav-li"><a href="about.html">About Us</a></li>
+<li class="nav-li"><a href="contact.html">Contact</a></li>
+    </ul>
+  
+     <input class="searchbox" type="text" placeholder="Search Products" id="searchValue">
+<button value="search" onclick="searchProduct();">Go</button>
+        
+<div class="cart" id="myCart">
+<a href="#" onclick='displayCart();'>
+<img src="cart.png" width=40 height=40> 
+</a>
+</div>
+   
+</div>
+<div id="prod-content">
+
+<div id="accordion" class="accordion">
+  <h3>Category</h3>
+  <div>
+    <table class="category">
+         <tr>
+        <td><a href="#" onclick='display_milk_chocolate();'>Milk Chocolate</a></td>
+      </tr>
+      <tr>
+        <td><a href="#" onclick='display_dark_chocolate();'>Dark Chocolate</a></td>
+      </tr>
+      <tr>
+        <td><a href="#" onclick='display_nuts_chocolate();'>Nuts and Chews</a> </td>
+      </tr>
+       <tr>
+        <td><a href="#" onclick='display_brits_chocolate();'>Brittles and Toffies</a> </td>
+      </tr> 
+        <tr>
+        <td><a href="#" onclick='display_truffles();'>Truffles</a> </td>
+      </tr>
+        <tr>
+        <td><a href="#" onclick='display_gifts();'>Gifts</a> </td>
+      </tr>
+        <tr>
+        <td><a href="#" onclick='display_holiday_chocolate();'>Holiday Assortments</a> </td>
+      </tr>
+         <tr>
+        <td><a href="http://jadran.sdsu.edu/~jadrn022/proj4/product.html">All Products</a> </td>
+      </tr>
+    </table>
+  </div>
+
+    <h3>Price</h3>
+<div>
+  <table>
+    <tr>
+    <td><input type="number" min=0 max=100000 id="minPrice" placeholder="Min($)" class="priceRange"></td>
+    <td><input type="number" min=0 max=100000 id="maxPrice" placeholder="Max($)" class="priceRange"></td>
+        </tr>
+      <tr>
+    <td>
+    <input type="button" class="priceRange button" value="Filter" onclick='filterPrice();'>
+    </td>
+      </tr>
+    </table>  
+</div>
+    
+</div>
+<div id="productForm">
+</div>
+<div id="statusBar">
+</div>
+<div id="viewProduct">
+</div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<html>
+<title>
+    Viral Gadgets!
+</title>
+<head>
+    
+<link rel="stylesheet" href="/jadrn017/css/jquery-ui.css">
+<link rel="stylesheet" href="/jadrn017/css/proj3.css">
+<script src="/jadrn017/js/jquery.js"></script>
+<script src="/jadrn017/css/jquery-ui.js"></script>
+<script src="/jadrn017/js/proj.js"></script>
+<script src="/jadrn017/js/shopping_cart.js"></script>
+</head>
+<body>
+<div class="navbar">
+  <a href="http://jadran.sdsu.edu/jadrn017/proj3.html"><img src="img/logo.jpg" width="80" height="60"></a>
+    
+<input class="searchbox" type="text" placeholder="Search Products" id="searchValue"> 
+<button value="search" onclick="searchProduct();">Go</button>
+    
+<div class="cart" id="myCart">
+<a href="#" onclick= 'openDialog();'>
+<img src="img/cart.jpg" width=40 height=40> 
+</a>
+</div>
+</div>
+<div class="ui-widget">
+        
+        <div id="ui-dialog" title="My Cart">
+            <div class="ui-dialog-content">
+               Your Cart is Empty.       
+            </div> <!-- end ui-dialog-content -->
+        </div> <!-- end ui-dialog -->     
+    </div>  <!-- end ui-widget -->
+<div class="allProds"><h3><a class="button" href="http://jadran.sdsu.edu/jadrn017/proj3.html">All Products</a></h3>
+    </div>
+<div id="accordion" class="accordion">
+  <h3>Category</h3>
+  <div>
+    <table class="category">
+         <tr>
+        <td><a href="#" onclick='filterCategory(1);'>Convertible</a></td>
+      </tr>
+      <tr>
+        <td><a href="#" onclick='filterCategory(2);'>Nexus</a></td>
+      </tr>
+      <tr>
+        <td><a href="#" onclick='filterCategory(3);'>IPad</a> </td>
+      </tr>
+       <tr>
+        <td><a href="#" onclick='filterCategory(4);'>Galaxy Note</a> </td>
+      </tr> 
+        <tr>
+        <td><a href="#" onclick='filterCategory(5);'>Galaxy Tab</a> </td>
+      </tr>
+        <tr>
+        <td><a href="#" onclick='filterCategory(6);'>Surface</a> </td>
+      </tr>
+    </table>
+  </div>
+  <h3>Brands</h3>
+  <div>
+    <div class="category">
+    <table>
+    <tr>
+     <td><a href="#" onclick='filterBrand(1);'>Apple</a> </td>
+    </tr>
+        <td><a href="#" onclick='filterBrand(2);'>Asus</a> </td>
+    <tr>
+     </tr>
+    <tr>
+      <td><a href="#" onclick='filterBrand(3);'>Google</a> </td>
+    </tr>
+    <tr>
+      <td><a href="#" onclick='filterBrand(4);'>HP</a> </td></tr>
+    <tr>
+      <td><a href="#" onclick='filterBrand(5);'>Microsoft</a> </td>
+    </tr>
+    <tr>
+      <td><a href="#" onclick='filterBrand(6);'>Samsung</a> </td>
+    </tr>
+  </table>
+  </div>
+</div>
+    <h3>Price</h3>
+<div>
+  <table>
+    <tr>
+    <td><input type="number" min=0 max=100000 id="minPrice" placeholder="Min($)" class="priceRange"></td>
+    <td><input type="number" min=0 max=100000 id="maxPrice" placeholder="Max($)" class="priceRange"></td>
+        </tr>
+      <tr>
+    <td>
+    <input type="button" class="priceRange button" value="Filter" onclick='filterPrice();'>
+    </td>
+      </tr>
+    </table>  
+</div>
+    
+</div>
+<div id="productForm">
+</div>
+<div id="statusBar">
+</div>
+<div id="viewProduct">
+</div>
+    </body>
+</html>

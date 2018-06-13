@@ -1,0 +1,95 @@
+<!--Vini Kalra
+820873996
+jadrn-017-->
+<html>
+<head>
+<meta charset="UTF-8" >
+<title>Add</title>
+     <script type="text/javascript" src="/jquery/jquery.js"></script>
+    <script src="upload.js"></script>
+ <link rel="stylesheet" href="login.css">
+   
+</head>
+<body>
+    <h1> Welcome To Viral Gadgets</h1>
+<ul>
+  <li><a class="active" href="Add.html">Add</a></li>
+  <li><a href="Edit.html">Edit</a></li>
+  <li><a href="Delete.html">Delete</a></li>
+  <li style="float:right"><a  href="/perl/jadrn017/Logout.cgi">Logout</a></li>
+</ul>
+<field>
+<form method = "post" enctype="multipart/form-data" name="myform" id="myform" action="">
+
+<table class="ab" align="center">
+
+<caption> ADD A NEW PRODUCT </caption>
+
+<tr>
+<td>SKU : </td>
+<td><input type="text" name="sku" id="sku" placeholder="e.g. ABC-123" ></td>
+  <td><img src="loading.gif" width = "20px" id="busy_wait"/></td>
+</tr>
+<tr>
+<td>Category :</td>
+<td><select id="category"></select></td>
+</tr>
+<tr>
+<td>Vendor :</td>
+<td><select id="vendor"></select>
+   </td>
+</tr>
+<tr>
+<td>Manufacture's Identifier : </td>
+<td><input type="text" name="identifier" id="identifier" ></td>
+</tr>
+<tr>
+<td>
+Description :
+</td>
+<td>
+<textarea name="description" rows="2" cols="30" id="description" >
+</textarea>
+</td>
+</tr>
+<tr>
+<td>
+Features :
+</td>
+<td>
+<textarea name="features" rows="4" cols="30" id="features" >
+</textarea>
+</td>
+</tr>
+<tr>
+<td>
+Cost :
+</td>
+<td>
+<input type="text" name="cost" id="cost">
+</td></tr>
+<tr>
+<td>
+Retail Price :
+</td>
+<td>
+<input type="text" name="rprice" id="rprice">
+</td></tr>
+<tr>
+<td>
+Image: 
+</td>
+<td>
+<input type="file" name="pic" id="pic" accept="image/*">
+</td>
+<tr>
+<td>
+ <input type="button" value="Submit" width = "60px" id="submit_button">
+</td>
+</tr>
+</table>
+</form>
+<h2 id="status"></h2>
+</field>
+</body>
+</html>

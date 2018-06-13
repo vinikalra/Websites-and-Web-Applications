@@ -1,0 +1,92 @@
+
+.butlog
+{
+    background-color: #f0f8ff;
+}
+.bc 
+{
+    background-color: #deb887;
+}
+
+.del
+{
+    background-color: #e9967a;
+}
+
+tr
+{
+    width: 100px;
+}
+.log
+{
+    height: 150px;
+}
+.flogin
+{
+    padding: 60px 500px 300px 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: white;
+    background-color: #4CAF50;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+table
+{
+    border: 1px solid black;
+    text-align: left;
+    
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #111;
+}
+
+field
+{
+/* top right bottom left */
+padding: 50px 50px 75px 100px;
+}
+
+h2
+{
+ color: red;
+font-weight: bold;   
+}
+
+h1
+{
+    text-align: center;
+    color:#4CAF50 ;
+font-weight: bold;
+    font-family: cursive;
+}
+#busy_wait {
+    visibility: hidden;
+    
+    }
+#image
+{
+    width: 50px;
+    height:50px;
+}

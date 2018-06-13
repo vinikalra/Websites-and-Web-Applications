@@ -1,0 +1,93 @@
+.sub
+{
+    background-color: #f0f8ff;
+}
+
+.del
+{
+    background-color: #e9967a;
+}
+
+.log
+{
+    height: 150px;
+}
+.adjust
+{
+    padding: 60px 500px 300px 500px;
+}
+tr{
+	width: 100px;
+}
+table
+{
+padding: 20px 50px 20px 50px;
+    border: 1px solid black;
+    text-align: center;   
+}
+h2
+{
+text-align: left;
+padding: 20px 50px 20px 50px;
+ color: red;
+font-weight: bold;   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: white;
+    background-color: #4CAF50;
+}
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #111;
+}
+
+field
+{
+/* top right bottom left */
+padding: 50px 50px 75px 100px;
+}
+
+h1
+{
+    text-align: center;
+    color:#4CAF50 ;
+font-weight: bold;
+    font-family: cursive;
+}
+
+.hidethis
+{
+	visibility: hidden;
+}
+
+#status {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    } 
+	
+#statusbar
+{
+padding: 350px 0px 0px 20px;	
+}

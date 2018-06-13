@@ -1,0 +1,22 @@
+use jadrn017;
+
+
+create table SKU(
+SKU		varchar(20) NOT NULL PRIMARY KEY,
+Category_id	varchar(5),
+Manuf_id	varchar(20),
+Description     varchar(150),
+Feature         varchar(300),
+Cost            DECIMAL(8,2),
+Retai_price     DECIMAL(8,2),
+Image		varchar(80)
+);
+
+create table Category(
+Category_id	varchar(5) NOT NULL PRIMARY KEY,
+Category_name   varchar(20)
+)
+create table Vendor(
+SKU_init	varchar(6) NOT NULL PRIMARY KEY,
+vendor_name     varchar(30)
+);
